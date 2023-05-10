@@ -2,30 +2,26 @@ package com.example;
 
 public class Player {
 
+    // fields
     private String name;
 
-    public Player (String name){
-        //complete your code here
+    // constructor
+    public Player(String name) {
+        this.name = name;
     }
 
+    // methods
     String getName() {
-
-        //complete your code here
-
+        return name;
     }
 
     String getNumber() {
-
-        //complete your code here
+        return "undefined";
     }
 
-
-    void showInformation(){
-
+    void showInformation() {
+        System.out.print("\n");
         System.out.println(getName() + " is a genetic player.");
-        System.out.println(getNumber());
+        System.out.println("The number is " + getNumber() + ".");
     }
-
-
-
 }

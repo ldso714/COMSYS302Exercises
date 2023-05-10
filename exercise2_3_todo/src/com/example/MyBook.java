@@ -1,11 +1,9 @@
 package com.example;
 
-//complete MyBook class
+ class MyBook extends Book {
 
- class MyBook {
-
-
-
-
-
-}
+  // methods
+  void setTitle(String s) {
+   super.title = s;
+  }
+ }

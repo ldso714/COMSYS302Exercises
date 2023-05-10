@@ -1,15 +1,14 @@
 package com.example;
 
-abstract class Book{
+abstract class Book {
 
-    //attribute
-    //complete this line
+    // fields
+    String title;
 
+    // methods
     abstract void setTitle(String s);
 
-    String getTitle(){
-       //complete the method
-
-
+    String getTitle() {
+        return title;
     }
 }
